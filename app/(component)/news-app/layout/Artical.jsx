@@ -13,13 +13,6 @@ export default function Artical({ artical }) {
                         className='w-100'
                         alt="Picture of the author"
                     />
-                    // artical.img && <Image
-                    //     src={artical.img}
-                    //     width={500}
-                    //     height={200}
-                    //     className='w-100'
-                    //     alt="Picture of the author"
-                    // />
                 }
                 <div className="card-body w-100">
                     <a className="card-title" href={artical.url} target='_blank'>{artical.title}</a>
