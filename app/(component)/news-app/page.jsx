@@ -16,10 +16,11 @@ const NewsAppPage = () => {
   const [categorie, setCategorie] = useState("general")
   const quary = useRef("")
   const pageNumber = useRef(1)
+  const abortConroller = useRef(new AbortController())
 
-  const loadData = async (cat) => {
+  const loadData = async (cat, signal) => {
     const API_URL = `https://newsapi.org/v2/top-headlines?country=eg&category=${cat}&pageSize=${PAGE_SIZE}&page=${pageNumber.current}&q=${quary.current}&apiKey=${process.env.NEXT_PUBLIC_API_KEY}`
-    const respons = await fetch(API_URL, { cache: "force-cache" })
+    const respons = await fetch(API_URL, { cache: "force-cache", signal })
     const data = await respons.json()
 
     if (data.status !== "ok")
@@ -38,8 +39,15 @@ const NewsAppPage = () => {
   }
 
   const featchDataAndUpdate = (cat) => {
+    // (abortConroller.current) && abortConroller.current.abort()
+    if (abortConroller.current) {
+      console.log("REeeeeeee")
+      abortConroller.current.abort()
+    }
+    abortConroller.current = new AbortController()
+    const signal = abortConroller.current.signal
     setLodaing(true)
-    loadData(cat || categorie)
+    loadData(cat || categorie, signal)
       .then(setArticles)
       .catch((error) => setError(error.message))
       .finally(() => setLodaing(false));
@@ -74,6 +82,9 @@ const NewsAppPage = () => {
 
   useEffect(() => {
     featchDataAndUpdate(categorie)
+    return () => {
+      abortConroller.current.abort()
+    }
   }, [])
 
   return (
