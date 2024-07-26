@@ -3,12 +3,11 @@ import React, { useEffect, useRef, useState } from 'react';
 import Header from './layout/Header';
 import NewsFead from './layout/NewsFead';
 import { debounce } from 'lodash';
-import "./newsapp.moudel.css"
+import "./newsapp.css"
 import Footer from './layout/Footer';
 
 
 const NewsAppPage = () => {
-  document.title = "News APP"
   const PAGE_SIZE = 5
   const [articles, setArticles] = useState([])
   const [error, setError] = useState("")

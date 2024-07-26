@@ -11,7 +11,7 @@ export default function CategoriesSelect({handelSelectCategory , categorie}) {
     { name: 'Technology', value: 'technology' }
   ];
   return (
-    <div className='col-12 col-md-5'>
+    <div className='col-12 col-md-4'>
       <select className="form-select p-3" value={categorie} onChange={handelSelectCategory}>
         {
           categories.map(({ name, value }) => <option key={name + Math.random()} value={value}>{name}</option>)
