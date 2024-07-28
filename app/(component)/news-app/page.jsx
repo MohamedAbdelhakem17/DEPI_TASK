@@ -21,7 +21,6 @@ const NewsAppPage = () => {
     const API_URL = `https://newsapi.org/v2/top-headlines?country=eg&category=${cat}&pageSize=${PAGE_SIZE}&page=${pageNumber.current}&q=${quary.current}&apiKey=${process.env.NEXT_PUBLIC_API_KEY}`
     const respons = await fetch(API_URL, { cache: "force-cache", signal })
     const data = await respons.json()
-
     if (data.status !== "ok")
       throw new Error("Server Error, We Will Solve it soon")
 
@@ -39,10 +38,6 @@ const NewsAppPage = () => {
 
   const featchDataAndUpdate = (cat) => {
     // (abortConroller.current) && abortConroller.current.abort()
-    if (abortConroller.current) {
-      console.log("REeeeeeee")
-      abortConroller.current.abort()
-    }
     abortConroller.current = new AbortController()
     const signal = abortConroller.current.signal
     setLodaing(true)
@@ -51,6 +46,7 @@ const NewsAppPage = () => {
       .catch((error) => setError(error.message))
       .finally(() => setLodaing(false));
   }
+
 
   const loadDataDebounce = debounce((newQuery) => {
     quary.current = newQuery;
@@ -81,9 +77,6 @@ const NewsAppPage = () => {
 
   useEffect(() => {
     featchDataAndUpdate(categorie)
-    return () => {
-      abortConroller.current.abort()
-    }
   }, [])
 
   return (

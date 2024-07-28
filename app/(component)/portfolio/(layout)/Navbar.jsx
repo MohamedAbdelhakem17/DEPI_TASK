@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <nav className='bg-blue-700 fixed top-0 w-full' >
+        <nav className='bg-blue-700 fixed top-0 w-full z-40' >
             <div className="container py-3 px-5 flex items-center justify-between">
                 <Link href={"/portfolio"} className='no-underline  font-bold font-mono text-2xl text-slate-50 hover:scale-75 hover:font-thin main-transition'>MyPortfolio.</Link>
 
