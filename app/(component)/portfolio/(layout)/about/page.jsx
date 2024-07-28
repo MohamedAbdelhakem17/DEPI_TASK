@@ -15,7 +15,11 @@ export default function About() {
         <section className="mt-16">
             <div className="container px-3">
 
-                <h3 className="titel">
+                <h3 className="text-center mt-4 font-semibold text-5xl py-3 relative
+               after:w-[200px] after:h-[3px] after:bg-blue-500 after:bottom-1 after:left-1/2 after:-translate-x-1/2 after:content-[''] after:absolute after:-translate-y-1/2
+               before:content-[''] before:bg-blue-900 before:absolute before:left-1/2 before:w-[50px] before:h-[8px] before:-bottom-[1px] before:-translate-x-1/2 before:-translate-y-1/2
+               before:z-10 before:rounded-sm
+               ">
                     About
                 </h3>
 

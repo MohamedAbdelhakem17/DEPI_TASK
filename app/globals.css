@@ -5,14 +5,16 @@
 .link {
   @apply block text-xl font-bold text-white no-underline hover:scale-110;
 }
+
 .main-transition {
   @apply transition duration-300 ease-out;
 }
 
 .icon {
-  @apply flex h-[50px] w-[50px] items-center justify-center rounded-full border-2 border-blue-400 p-1 no-underline hover:scale-110;
+  @apply flex h-[50px] w-[50px] no-underline items-center justify-center p-1 rounded-full border-2 border-blue-400 hover:scale-110
 }
 
-.titel {
-  @apply relative mt-4 py-3 text-center text-5xl font-semibold before:absolute before:-bottom-[1px] before:left-1/2 before:z-10 before:h-[8px] before:w-[50px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-sm before:bg-blue-900 before:content-[''] after:absolute after:bottom-1 after:left-1/2 after:h-[3px] after:w-[200px] after:-translate-x-1/2 after:-translate-y-1/2 after:bg-blue-500 after:content-[''];
+.title {
+  @apply relative mt-4 py-4 text-center text-5xl font-semibold before:absolute before:-bottom-[1px] before:left-1/2 before:z-10 before:h-[8px] before:w-[50px] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-sm before:bg-blue-900 before:content-[''] after:absolute after:bottom-1 after:left-1/2 after:h-[3px] after:w-[200px] after:-translate-x-1/2 after:-translate-y-1/2 after:bg-blue-500 after:content-[''];
 }
+
