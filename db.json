@@ -1,0 +1,256 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Ahmed Ali",
+      "age": 25,
+      "gender": "Male",
+      "address": "123 Nile St, Tower A, Floor 5, Apt 502, Cairo, Egypt",
+      "government": "Cairo"
+    },
+    {
+      "id": 2,
+      "name": "Sara Mohamed",
+      "age": 30,
+      "gender": "Female",
+      "address": "45 Mediterranean Rd, Tower B, Floor 3, Apt 301, Alexandria, Egypt",
+      "government": "Alexandria"
+    },
+    {
+      "id": 3,
+      "name": "Mohamed Hassan",
+      "age": 28,
+      "gender": "Male",
+      "address": "789 Pyramids Ave, Tower C, Floor 7, Apt 704, Giza, Egypt",
+      "government": "Giza"
+    },
+    {
+      "id": 4,
+      "name": "Mona Khaled",
+      "age": 22,
+      "gender": "Female",
+      "address": "56 Pharaoh St, Tower D, Floor 2, Apt 205, Luxor, Egypt",
+      "government": "Luxor"
+    },
+    {
+      "id": 5,
+      "name": "Omar Said",
+      "age": 35,
+      "gender": "Male",
+      "address": "90 Nubia St, Tower E, Floor 6, Apt 603, Aswan, Egypt",
+      "government": "Aswan"
+    },
+    {
+      "id": 6,
+      "name": "Nour El-Deen",
+      "age": 27,
+      "gender": "Female",
+      "address": "23 Al-Azhar St, Tower F, Floor 4, Apt 402, Cairo, Egypt",
+      "government": "Cairo"
+    },
+    {
+      "id": 7,
+      "name": "Youssef Amr",
+      "age": 26,
+      "gender": "Male",
+      "address": "11 Mansoura Blvd, Tower G, Floor 1, Apt 101, Mansoura, Egypt",
+      "government": "Dakahlia"
+    },
+    {
+      "id": 8,
+      "name": "Heba Abdelrahman",
+      "age": 24,
+      "gender": "Female",
+      "address": "78 Tanta Rd, Tower H, Floor 3, Apt 306, Tanta, Egypt",
+      "government": "Gharbia"
+    },
+    {
+      "id": 9,
+      "name": "Khaled Farouk",
+      "age": 31,
+      "gender": "Male",
+      "address": "34 Zagazig St, Tower I, Floor 5, Apt 503, Zagazig, Egypt",
+      "government": "Sharqia"
+    },
+    {
+      "id": 10,
+      "name": "Fatma Hassan",
+      "age": 29,
+      "gender": "Female",
+      "address": "67 Ismailia Ave, Tower J, Floor 2, Apt 204, Ismailia, Egypt",
+      "government": "Ismailia"
+    },
+    {
+      "id": 11,
+      "name": "Ayman Mostafa",
+      "age": 23,
+      "gender": "Male",
+      "address": "22 Fayoum St, Tower K, Floor 4, Apt 401, Fayoum, Egypt",
+      "government": "Fayoum"
+    },
+    {
+      "id": 12,
+      "name": "Layla Osama",
+      "age": 33,
+      "gender": "Female",
+      "address": "89 Sinai St, Tower L, Floor 3, Apt 305, Sharm El-Sheikh, Egypt",
+      "government": "South Sinai"
+    },
+    {
+      "id": 13,
+      "name": "Hassan Mahmoud",
+      "age": 32,
+      "gender": "Male",
+      "address": "44 Red Sea Rd, Tower M, Floor 6, Apt 602, Hurghada, Egypt",
+      "government": "Red Sea"
+    },
+    {
+      "id": 14,
+      "name": "Salma Youssef",
+      "age": 21,
+      "gender": "Female",
+      "address": "56 Al-Azhar St, Tower N, Floor 2, Apt 202, Cairo, Egypt",
+      "government": "Cairo"
+    },
+    {
+      "id": 15,
+      "name": "Karim Tarek",
+      "age": 34,
+      "gender": "Male",
+      "address": "12 Mediterranean Rd, Tower O, Floor 5, Apt 503, Alexandria, Egypt",
+      "government": "Alexandria"
+    },
+    {
+      "id": 16,
+      "name": "Rana Sameh",
+      "age": 14,
+      "gender": "Female",
+      "address": "90 Pyramids Ave, Tower P, Floor 1, Apt 103, Giza, Egypt",
+      "government": "Giza"
+    },
+    {
+      "id": 17,
+      "name": "Ibrahim Nasser",
+      "age": 12,
+      "gender": "Male",
+      "address": "67 Canal St, Tower Q, Floor 4, Apt 404, Suez, Egypt",
+      "government": "Suez"
+    },
+    {
+      "id": 18,
+      "name": "Amal Ahmed",
+      "age": 25,
+      "gender": "Female",
+      "address": "56 Port Said Blvd, Tower R, Floor 2, Apt 204, Port Said, Egypt",
+      "government": "Port Said"
+    },
+    {
+      "id": 19,
+      "name": "Tamer Hani",
+      "age": 27,
+      "gender": "Male",
+      "address": "12 Damietta St, Tower S, Floor 3, Apt 306, Damietta, Egypt",
+      "government": "Damietta"
+    },
+    {
+      "id": 20,
+      "name": "Dina Fathy",
+      "age": 29,
+      "gender": "Female",
+      "address": "89 Nile St, Tower T, Floor 6, Apt 602, Cairo, Egypt",
+      "government": "Cairo"
+    },
+    {
+      "id": 21,
+      "name": "Adham Galal",
+      "age": 10,
+      "gender": "Male",
+      "address": "45 Mediterranean Rd, Tower U, Floor 5, Apt 503, Alexandria, Egypt",
+      "government": "Alexandria"
+    },
+    {
+      "id": 22,
+      "name": "Marwa Saber",
+      "age": 31,
+      "gender": "Female",
+      "address": "789 Pyramids Ave, Tower V, Floor 7, Apt 704, Giza, Egypt",
+      "government": "Giza"
+    },
+    {
+      "id": 23,
+      "name": "Sherif Ramadan",
+      "age": 13,
+      "gender": "Male",
+      "address": "34 Minya St, Tower W, Floor 2, Apt 204, Minya, Egypt",
+      "government": "Minya"
+    },
+    {
+      "id": 24,
+      "name": "Nadia Hamdy",
+      "age": 24,
+      "gender": "Female",
+      "address": "56 Sohag Blvd, Tower X, Floor 4, Apt 403, Sohag, Egypt",
+      "government": "Sohag"
+    },
+    {
+      "id": 25,
+      "name": "Mahmoud Zaki",
+      "age": 35,
+      "gender": "Male",
+      "address": "22 Beni Suef St, Tower Y, Floor 5, Apt 504, Beni Suef, Egypt",
+      "government": "Beni Suef"
+    },
+    {
+      "id": 26,
+      "name": "Reem Ashraf",
+      "age": 28,
+      "gender": "Female",
+      "address": "11 Al-Azhar St, Tower Z, Floor 3, Apt 303, Cairo, Egypt",
+      "government": "Cairo"
+    },
+    {
+      "id": 27,
+      "name": "Walid Ismail",
+      "age": 33,
+      "gender": "Male",
+      "address": "67 Mediterranean Rd, Tower AA, Floor 6, Apt 601, Alexandria, Egypt",
+      "government": "Alexandria"
+    },
+    {
+      "id": 28,
+      "name": "Mai Mostafa",
+      "age": 8,
+      "gender": "Female",
+      "address": "45 Pyramids Ave, Tower BB, Floor 2, Apt 202, Giza, Egypt",
+      "government": "Giza"
+    },
+    {
+      "id": 29,
+      "name": "Ramy Hossam",
+      "age": 30,
+      "gender": "Male",
+      "address": "123 Nile St, Tower CC, Floor 7, Apt 701, Cairo, Egypt",
+      "government": "Cairo"
+    },
+    {
+      "id": 30,
+      "name": "Mohamed Abdelhakem",
+      "age": 23,
+      "gender": "Male",
+      "address": "10 Dr Boushra ST, El Nour City, El Mataryia,Cairo, Egypt.",
+      "government": "Cairo"
+    },
+    {
+      "id": 31,
+      "name": "Laila Fathi",
+      "age": 11,
+      "gender": "Female",
+      "address": "89 Mediterranean Rd, Tower DD, Floor 3, Apt 302, Alexandria, Egypt",
+      "government": "Alexandria"
+    }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ]
+}

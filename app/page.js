@@ -38,9 +38,9 @@ export default function Home() {
     <div className={`w-75 p-3 rounded-2 shadow-lg ${styles.list}`}>
       <h2 className="text-center text-white font-mono"> Tasks List</h2>
       <Link href={"/news-app"} className={`${styles.item}`}> News App  </Link>
-      <Link href={"/school-system"} className={`${styles.item}`}> School System  </Link>
       <Link href={"/portfolio"} className={`${styles.item}`}> Multi Page App  </Link>
-      <Link href={"/news-app"} className={`${styles.item}`}> Clock   </Link>
+      <Link href={"/school-system"} className={`${styles.item}`}> School System  </Link>
+      {/* <Link href={"/news-app"} className={`${styles.item}`}> Clock   </Link> */}
     </div>
   </main>;
 }
